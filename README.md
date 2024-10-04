@@ -10,3 +10,7 @@
 - Create a custom pick and place controller
 - Get the Arctos to perform simple pick and place through Python only
 - Wrap it all up in ROS2
+
+
+>NOTE currently there some bugs in the USD descriptor. 
+
