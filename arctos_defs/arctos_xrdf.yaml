@@ -1,0 +1,57 @@
+format: "xrdf"
+
+format_version: 1.0
+
+default_joint_positions: 
+  lower_base: -1e-04
+  middle_lower: 0.0
+  upper_middle: -0.0003
+  wrist_upper: -0.0
+  inner_wrist: 0.0195
+  outer_inner: 0.006
+  slide_left: 0.0
+  slide_right: 0.015
+
+cspace: 
+  joint_names: 
+    - "lower_base"
+    - "middle_lower"
+    - "upper_middle"
+    - "wrist_upper"
+    - "inner_wrist"
+    - "outer_inner"
+    - "slide_left"
+    - "slide_right"
+  acceleration_limits: [10, 10, 10, 10, 10, 10, 10, 10]
+  jerk_limits: [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
+
+collision: 
+  geometry: "auto_generated_collision_sphere_group"
+
+self_collision: 
+  geometry: "auto_generated_collision_sphere_group"
+  ignore: 
+    arctos_base: 
+      - "arctos_lower"
+    arctos_lower: 
+      - "arctos_middle"
+    arctos_middle: 
+      - "arctos_upper"
+    arctos_upper: 
+      - "wrist"
+    wrist: 
+      - "gripper_assembly_inner"
+    gripper_assembly_inner: 
+      - "gripper_assembly_outer"
+    gripper_assembly_outer: 
+      - "left_jaw"
+      - "right_jaw"
+    left_jaw: 
+      - "right_jaw"
+
+geometry: 
+  auto_generated_collision_sphere_group: 
+    spheres: 
+      arctos_base: 
+        - center: [0.0, 0.0, 0.0]
+          radius: 0.1
