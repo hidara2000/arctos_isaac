@@ -14,3 +14,7 @@
 
 >NOTE currently there some bugs in the USD descriptor. Friction, inertia etc TBC 
 
+
+
+https://github.com/user-attachments/assets/c1ed2d0d-75fa-4ba1-b1cf-ac66058737a0
+
