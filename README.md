@@ -12,5 +12,5 @@
 - Wrap it all up in ROS2
 
 
->NOTE currently there some bugs in the USD descriptor. 
+>NOTE currently there some bugs in the USD descriptor. Friction, inertia etc TBC 
 
