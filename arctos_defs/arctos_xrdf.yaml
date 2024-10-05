@@ -9,8 +9,8 @@ default_joint_positions:
   wrist_upper: 1.2497
   inner_wrist: 0.569
   outer_inner: 1.7226
-  slide_left: -0.0
-  slide_right: -0.0
+  slide_left: 0.0
+  slide_right: 0.0
 
 cspace: 
   joint_names: 
@@ -52,3 +52,122 @@ self_collision:
 geometry: 
   auto_generated_collision_sphere_group: 
     spheres: 
+      arctos_base: 
+        - center: [-0.15, 0.002, 0.059]
+          radius: 0.1082
+        - center: [-0.025, 0.002, 0.041]
+          radius: 0.1082
+        - center: [0.047, 0.0, 0.042]
+          radius: 0.1068
+      arctos_upper: 
+        - center: [0.086, -0.011, -0.001]
+          radius: 0.1086
+        - center: [0.013, 0.005, -0.001]
+          radius: 0.1076
+      wrist: 
+        - center: [0.001, 0.005, -0.057]
+          radius: 0.1066
+        - center: [-0.013, 0.01, -0.06]
+          radius: 0.1066
+        - center: [-0.001, -0.003, -0.119]
+          radius: 0.1066
+      gripper_assembly_inner: 
+        - center: [0.002, 0.002, -0.001]
+          radius: 0.1063
+      gripper_assembly_outer: 
+        - center: [0.009, 0.002, -0.009]
+          radius: 0.0494
+      left_jaw: 
+        - center: [0.008, 0.004, -0.008]
+          radius: 0.011
+        - center: [0.007, 0.011, -0.009]
+          radius: 0.011
+        - center: [0.008, 0.017, -0.009]
+          radius: 0.01
+        - center: [0.019, 0.008, -0.01]
+          radius: 0.009
+        - center: [0.017, 0.016, -0.009]
+          radius: 0.009
+        - center: [0.002, 0.008, -0.006]
+          radius: 0.01
+        - center: [0.028, 0.004, -0.012]
+          radius: 0.008
+        - center: [0.028, 0.011, -0.011]
+          radius: 0.008
+        - center: [0.014, 0.003, -0.009]
+          radius: 0.009
+        - center: [0.023, 0.016, -0.01]
+          radius: 0.008
+        - center: [0.004, 0.014, -0.005]
+          radius: 0.009
+        - center: [-0.0, 0.014, -0.01]
+          radius: 0.008
+        - center: [0.015, 0.012, -0.009]
+          radius: 0.009
+        - center: [0.022, 0.011, -0.011]
+          radius: 0.008
+        - center: [0.022, 0.004, -0.01]
+          radius: 0.008
+        - center: [0.014, 0.017, -0.009]
+          radius: 0.009
+        - center: [-0.0, 0.012, -0.003]
+          radius: 0.008
+        - center: [0.034, 0.006, -0.012]
+          radius: 0.007
+        - center: [-0.003, -0.005, -0.013]
+          radius: 0.007
+        - center: [-0.005, -0.005, -0.002]
+          radius: 0.007
+        - center: [0.029, 0.017, -0.012]
+          radius: 0.007
+        - center: [0.006, 0.019, -0.005]
+          radius: 0.008
+        - center: [0.033, 0.016, -0.013]
+          radius: 0.007
+        - center: [0.002, 0.006, -0.009]
+          radius: 0.009
+      right_jaw: 
+        - center: [0.006, 0.014, -0.008]
+          radius: 0.0099
+        - center: [0.007, 0.007, -0.009]
+          radius: 0.0099
+        - center: [0.016, 0.016, -0.009]
+          radius: 0.0079
+        - center: [0.018, 0.005, -0.009]
+          radius: 0.0079
+        - center: [0.02, 0.011, -0.01]
+          radius: 0.0079
+        - center: [0.012, 0.005, -0.009]
+          radius: 0.0089
+        - center: [0.002, 0.012, -0.007]
+          radius: 0.0089
+        - center: [0.008, 0.001, -0.006]
+          radius: 0.0079
+        - center: [0.029, 0.011, -0.012]
+          radius: 0.0069
+        - center: [0.028, 0.003, -0.011]
+          radius: 0.0069
+        - center: [0.001, 0.007, -0.006]
+          radius: 0.0079
+        - center: [0.026, 0.016, -0.011]
+          radius: 0.0069
+        - center: [0.01, 0.016, -0.009]
+          radius: 0.0089
+        - center: [0.02, 0.003, -0.01]
+          radius: 0.0079
+        - center: [0.02, 0.014, -0.01]
+          radius: 0.0079
+        - center: [0.027, 0.007, -0.011]
+          radius: 0.0069
+        - center: [0.014, 0.011, -0.008]
+          radius: 0.0079
+        - center: [0.008, 0.002, -0.01]
+          radius: 0.0079
+        - center: [0.014, 0.002, -0.009]
+          radius: 0.0079
+        - center: [0.007, 0.017, -0.007]
+          radius: 0.0089
+        - center: [0.033, 0.015, -0.013]
+          radius: 0.006
+        - center: [0.034, 0.006, -0.012]
+          radius: 0.006
