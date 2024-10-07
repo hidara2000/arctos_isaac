@@ -3,7 +3,12 @@
 ## ONGOING project to import Arctos into IsaacSim and create a simple pick and place controller
 
 # WIP
-- Create a USD file for Arctos (95% there)
+- Fix collision spheres
+
+# COMPLETE
+- Create a USD file for Arctos
+- Create a YAML file for Arctos Config
+- Add example script
 
 # TODO
 - Create a manipulator controller for the Arctos
