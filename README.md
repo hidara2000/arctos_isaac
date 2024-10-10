@@ -32,11 +32,13 @@
 2. install Curobo (https://Curobo.org/get_started/1_install_instructions.html)
 
 CUROBO EXAMPLE - WIP    
-<video src='https://github.com/user-attachments/assets/c1ed2d0d-75fa-4ba1-b1cf-ac66058737a0' width=180/>
+<video src='https://github.com/user-attachments/assets/c1ed2d0d-75fa-4ba1-b1cf-ac66058737a0' width=180/>    
+    
+  
+RMPflow EXAMPLES     
+<video src='https://github.com/user-attachments/assets/1af2fb42-6426-4fc2-b4c8-126c8d49d4a1' width=180/>    
 
 
-RMPflow EXAMPLES    
-[link]([/relativeToProject.md](https://github.com/hidara2000/arctos_isaac/blob/main/videos/pick_and_place_random)) 
 
 
 
