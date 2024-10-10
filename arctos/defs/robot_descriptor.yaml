@@ -1,0 +1,14 @@
+api_version: 1.0
+cspace:
+    - lower_base
+    - middle_lower
+    - upper_middle
+    - wrist_upper
+    - inner_wrist
+    - outer_inner
+    - slide_left
+    - slide_right
+root_link: arctos_base
+default_q: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -0.015, -0.015]
+cspace_to_urdf_rules: []
+composite_task_spaces: []

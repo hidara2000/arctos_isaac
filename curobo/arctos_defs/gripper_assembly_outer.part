@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "b35117ee2ebbe17324801737",
+    "documentMicroversion": "7d4e89813d676bdc873c63e7",
+    "elementId": "9423c8acd3c6c88d3a136071",
+    "fullConfiguration": "default",
+    "id": "MzHF+NcC7fAJl2fQk",
+    "isStandardContent": false,
+    "name": "gripper assembly outer <1>",
+    "partId": "KFPB",
+    "suppressed": false,
+    "type": "Part"
+}
