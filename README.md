@@ -36,6 +36,7 @@ CUROBO EXAMPLE - WIP
 
 
 RMPflow EXAMPLES    
-<video src='https://github.com/hidara2000/arctos_isaac/blob/main/videos/pick_and_place_random.mp4' width=180/>
+[link]([/relativeToProject.md](https://github.com/hidara2000/arctos_isaac/blob/main/videos/pick_and_place_random)) 
+
 
 
