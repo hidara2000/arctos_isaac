@@ -23,9 +23,9 @@
 
 
 >NOTE 
-- currently there some bugs in the USD descriptor. Friction, inertia etc TBC 
-- Curobo is a WIP and uses seperate definitions. Eventually RMPflow and Curobo will use the same defs
-- RMPflow/IK solvers in the arctos folders are working but in an alpha stage
+- Currently, there are some bugs in the USD descriptor. Friction, inertia etc TBC 
+- Curobo is a WIP and uses separate definitions. Eventually, RMPflow and Curobo will use the same defs
+- RMPflow/IK solvers in the Arctos folders are working but in an alpha stage. See scripts
 
 # INSTRUCTIONS
 1. install IsaacSim
